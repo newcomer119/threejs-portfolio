@@ -26,7 +26,7 @@ export const clientReviews = [
     id: 1,
     name: 'Yen Yoga',
     position: 'Founder of Yen Yoga & Retreats',
-    img: 'assets/review1.png',
+    img: 'assets/logo.png',
     review:
       "The website transformed our retreat business! Clients can now easily book classes and retreats online, and our instructors love the new profile features. The blog has helped us build a real community. We're so grateful for the professionalism and creativity throughout the project.",
   },
@@ -34,7 +34,7 @@ export const clientReviews = [
     id: 2,
     name: 'Audexis Consultancy',
     position: 'Operations Manager at Audexis Consultancy',
-    img: 'assets/review2.png',
+    img: 'assets/audexis.ico',
     review:
       "Our transcription workflow is now seamless thanks to the new platform. Clients appreciate the secure upload and tracking, and our team is more efficient than ever. The developer understood our needs perfectly and delivered beyond expectations.",
   },
@@ -42,7 +42,7 @@ export const clientReviews = [
     id: 3,
     name: 'FilamentFreaks',
     position: 'CEO of FilamentFreaks',
-    img: 'assets/review3.png',
+    img: 'assets/filament.webp',
     review:
       "Launching our ecommerce site was a game-changer. Customers love the easy navigation and secure checkout, and managing our inventory is now effortless. The attention to detail and technical expertise made all the difference.",
   },
