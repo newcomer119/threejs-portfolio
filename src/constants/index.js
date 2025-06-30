@@ -50,11 +50,10 @@ export const clientReviews = [
 
 export const myProjects = [
   {
-    title: 'Podcastr - AI Podcast Platform',
-    desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
-    subdesc:
-      'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-    href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
+    title: 'Yen Yoga Retreat',
+    desc: 'A serene and modern website for a yoga retreat center, enabling users to explore classes, book retreats, and connect with instructors. The platform features a blog and a seamless booking experience for wellness seekers.',
+    subdesc: 'Developed with a focus on user experience and responsive design, yenyogaretreat.org helps the community discover and join yoga events with ease.',
+    href: 'https://yenyogaretreat.org',
     texture: '/textures/project/project1.mp4',
     logo: '/assets/project-logo1.png',
     logoStyle: {
@@ -64,26 +63,10 @@ export const myProjects = [
     },
     spotlight: '/assets/spotlight1.png',
     tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
+      { id: 1, name: 'React.js', path: '/assets/react.svg' },
+      { id: 2, name: 'TailwindCSS', path: 'assets/tailwindcss.png' },
+      { id: 3, name: 'TypeScript', path: '/assets/typescript.png' },
+      { id: 4, name: 'Framer Motion', path: '/assets/framer.png' },
     ],
   },
   {
@@ -101,73 +84,38 @@ export const myProjects = [
     },
     spotlight: '/assets/spotlight2.png',
     tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
+      { id: 1, name: 'React.js', path: '/assets/react.svg' },
+      { id: 2, name: 'TailwindCSS', path: 'assets/tailwindcss.png' },
+      { id: 3, name: 'TypeScript', path: '/assets/typescript.png' },
+      { id: 4, name: 'Framer Motion', path: '/assets/framer.png' },
     ],
   },
   {
-    title: 'CarePulse - Health Management System',
-    desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
-    subdesc:
-      'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-    href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
+    title: 'Audexis Consultancy',
+    desc: 'A professional platform for transcription services, allowing clients to securely upload audio files, track project progress, and receive accurate transcriptions. Designed for efficiency and reliability.',
+    subdesc: 'audexisconsultancy.com streamlines the transcription process for businesses and individuals, with a focus on security and user-friendly workflows.',
+    href: 'https://audexisconsultancy.com',
     texture: '/textures/project/project3.mp4',
     logo: '/assets/project-logo3.png',
     logoStyle: {
       backgroundColor: '#60f5a1',
-      background:
-        'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
+      background: 'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
       border: '0.2px solid rgba(208, 213, 221, 1)',
       boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
     },
     spotlight: '/assets/spotlight3.png',
     tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
+      { id: 1, name: 'React.js', path: '/assets/react.svg' },
+      { id: 2, name: 'TailwindCSS', path: 'assets/tailwindcss.png' },
+      { id: 3, name: 'TypeScript', path: '/assets/typescript.png' },
+      { id: 4, name: 'Framer Motion', path: '/assets/framer.png' },
     ],
   },
   {
-    title: 'Horizon - Online Banking Platform',
-    desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
-    subdesc:
-      'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-    href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
+    title: 'FilamentFreaks',
+    desc: 'An ecommerce platform dedicated to 3D printers and tech accessories. Users can browse products, read reviews, and enjoy a secure, streamlined checkout experience.',
+    subdesc: 'filamentfreaks.com offers a robust shopping experience for tech enthusiasts, with inventory management and customer support built in.',
+    href: 'https://filamentfreaks.com',
     texture: '/textures/project/project4.mp4',
     logo: '/assets/project-logo4.png',
     logoStyle: {
@@ -177,34 +125,17 @@ export const myProjects = [
     },
     spotlight: '/assets/spotlight4.png',
     tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
+      { id: 1, name: 'React.js', path: '/assets/react.svg' },
+      { id: 2, name: 'TailwindCSS', path: 'assets/tailwindcss.png' },
+      { id: 3, name: 'TypeScript', path: '/assets/typescript.png' },
+      { id: 4, name: 'Framer Motion', path: '/assets/framer.png' },
     ],
   },
   {
-    title: 'Imaginify - AI Photo Manipulation App',
-    desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
-    subdesc:
-      'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-    href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
+    title: 'CodeSync - Live Coding Interview Platform',
+    desc: 'A modern platform for interviewers to create private coding interviews. Interviewers can generate coding questions, observe candidates solve them live, and assign ratings or pass/fail outcomes.',
+    subdesc: 'codesync-mia1.vercel.app supports two roles: candidate and interviewer. Candidates solve problems in real time, while interviewers manage sessions, review code, and provide instant feedback.',
+    href: 'https://codesync-mia1.vercel.app/',
     texture: '/textures/project/project5.mp4',
     logo: '/assets/project-logo5.png',
     logoStyle: {
@@ -214,26 +145,10 @@ export const myProjects = [
     },
     spotlight: '/assets/spotlight5.png',
     tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
+      { id: 1, name: 'React.js', path: '/assets/react.svg' },
+      { id: 2, name: 'TailwindCSS', path: 'assets/tailwindcss.png' },
+      { id: 3, name: 'TypeScript', path: '/assets/typescript.png' },
+      { id: 4, name: 'Framer Motion', path: '/assets/framer.png' },
     ],
   },
 ];
