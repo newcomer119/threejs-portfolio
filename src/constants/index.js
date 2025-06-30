@@ -256,7 +256,7 @@ export const workExperiences = [
     pos: 'Web Developer',
     duration: '2024',
     title: 'Developed a modern, responsive website for a yoga retreat center, featuring class schedules, retreat booking, instructor profiles, and a blog to engage the wellness community.',
-    icon: '',
+    icon: 'assets/logo.png',
     animation: 'victory',
   },
   {
@@ -265,7 +265,7 @@ export const workExperiences = [
     pos: 'Web Developer',
     duration: '2024',
     title: 'Built a consultancy platform specializing in transcription services, enabling clients to upload audio files, track project progress, and securely receive transcribed documents.',
-    icon: '',
+    icon: 'assets/audexis.ico',
     animation: 'clapping',
   },
   {
@@ -274,7 +274,7 @@ export const workExperiences = [
     pos: 'Web Developer',
     duration: '2025',
     title: 'Created an ecommerce website for 3D printers and tech accessories, with product listings, secure checkout, customer reviews, and inventory management for a seamless shopping experience.',
-    icon: '',
+    icon: 'assets/filament.webp',
     animation: 'salute',
   },
 ];
