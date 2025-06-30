@@ -24,35 +24,27 @@ export const navLinks = [
 export const clientReviews = [
   {
     id: 1,
-    name: 'Emily Johnson',
-    position: 'Marketing Director at GreenLeaf',
+    name: 'Yen Yoga',
+    position: 'Founder of Yen Yoga & Retreats',
     img: 'assets/review1.png',
     review:
-      'Working with Mitarth was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
+      "The website transformed our retreat business! Clients can now easily book classes and retreats online, and our instructors love the new profile features. The blog has helped us build a real community. We're so grateful for the professionalism and creativity throughout the project.",
   },
   {
     id: 2,
-    name: 'Mark Rogers',
-    position: 'Founder of TechGear Shop',
+    name: 'Audexis Consultancy',
+    position: 'Operations Manager at Audexis Consultancy',
     img: 'assets/review2.png',
     review:
-      "Mitarth's expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He's a true professional! Fantastic work.",
+      "Our transcription workflow is now seamless thanks to the new platform. Clients appreciate the secure upload and tracking, and our team is more efficient than ever. The developer understood our needs perfectly and delivered beyond expectations.",
   },
   {
     id: 3,
-    name: 'John Dohsas',
-    position: 'Project Manager at UrbanTech ',
+    name: 'FilamentFreaks',
+    position: 'CEO of FilamentFreaks',
     img: 'assets/review3.png',
     review:
-      "I can't say enough good things about Mitarth. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
-  },
-  {
-    id: 4,
-    name: 'Ether Smith',
-    position: 'CEO of BrightStar Enterprises',
-    img: 'assets/review4.png',
-    review:
-      'Mitarth was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
+      "Launching our ecommerce site was a game-changer. Customers love the easy navigation and secure checkout, and managing our inventory is now effortless. The attention to detail and technical expertise made all the difference.",
   },
 ];
 
